@@ -8,16 +8,36 @@
 </head>
 <body>
     <div>
-        <form id="" action="Controlador" method="POST">
-            <label for="nombre" >Nombre</label>
-            <input type="text" name="nombre" class="campo" placeholder="nombre" autocomplete="true"><br>
-            <label for="" ></label>
-            <input type="text" name="" class="campo" placeholder="" autocomplete="true"><br>
-            <label for="" ></label>
-            <input type="text" name="" class="campo" placeholder="" autocomplete="true"><br>
-            <label for="" ></label>
-            <input type="text" name="" class="campo" placeholder="" autocomplete="true"><br>
-            <button type="submit" class="Button" action="guardar" value="valores" >Enviar</button>
+        <header>
+            <div>    
+                <img src="" width="" heigth="" alt="">
+                <h1>Restaurantes</h1>
+            </div>
+            <div>
+                <hr>
+                    <nav>
+                        <ul>
+                           <li><a href="busqueda.html" >Buscar</a></li>
+                           <li><a href="restaurantes.html">Restaurantes</a></li>
+                           <li><a href="nuevoResturante.html" >Registrar restaura</a></li>
+                           <li><a href="index.html" >Inicion</a></li>
+                        </ul>
+                    </nav>
+                <hr>
+            </div>
+        </header>
+    </div>
+    <div>
+        <form action="Controlador" method="POST">
+            <label for="nombre" >Nombre</label><br>
+            <input type="text" name="nombre" class="campo" placeholder="nombre" autocomplete="true"><br><br>
+            <label for="descripcion" >Descripcion</label><br>
+            <textarea type="text" name="descripcion" placeholder="descripcion"></textarea><br><br>
+            <label for="direccion" >Direccion</label><br>
+            <input type="text" name="direccion" class="campo" placeholder="direccion" autocomplete="true"><br><br>
+            <label for="imagen" >Imagen</label><br>
+            <input type="file" name="imagen" class="campo" placeholder="imagen" autocomplete="true"><br><br>
+            <button type="submit" class="Button" action="guardar" value="valores" >Enviar</button><br><br>
             <button type="reset" class="Button">Borrar</button>
         </form>
     </div>
