@@ -1,12 +1,30 @@
 body
 {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color:rgb(241, 241, 222);
 }
 
-#the_div
+#the-div-index
 {
-    
-    width: 9000px;
-    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.div-margin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#the-picture{
+    text-align: center;
+}
+
+.the-img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }

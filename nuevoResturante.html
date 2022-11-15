@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuevo resturante</title>
+    <link rel="stylesheet" href="css/newRestaurante.css">
 </head>
 <body>
     <div>
@@ -30,14 +31,14 @@
     <div>
         <form action="Controlador" method="POST">
             <label for="nombre" >Nombre</label><br>
-            <input type="text" name="nombre" class="campo" placeholder="nombre" autocomplete="true"><br><br>
+            <input type="text" name="nombre" class="campo" placeholder="nombre" autocomplete="true"><br>
             <label for="descripcion" >Descripcion</label><br>
-            <textarea type="text" name="descripcion" placeholder="descripcion"></textarea><br><br>
+            <textarea type="text" name="descripcion" placeholder="descripcion"></textarea><br>
             <label for="direccion" >Direccion</label><br>
-            <input type="text" name="direccion" class="campo" placeholder="direccion" autocomplete="true"><br><br>
+            <input type="text" name="direccion" class="campo" placeholder="direccion" autocomplete="true"><br>
             <label for="imagen" >Imagen</label><br>
-            <input type="file" name="imagen" class="campo" placeholder="imagen" autocomplete="true"><br><br>
-            <button type="submit" class="Button" action="guardar" value="valores" >Enviar</button><br><br>
+            <input type="file" name="imagen" class="campo" placeholder="imagen" autocomplete="true"><br>
+            <button type="submit" class="Button" action="guardar" value="valores" >Enviar</button><br>
             <button type="reset" class="Button">Borrar</button>
         </form>
     </div>
