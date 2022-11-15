@@ -3,6 +3,14 @@ body
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 #the-div-index
 {
     margin-top: 20px;
@@ -27,4 +35,11 @@ body
     margin-bottom: 20px;
     margin-left: 40px;
     margin-right: 40px;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.1);
 }
+
+nav {
+    background: whitesmoke;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.1);
+}
+

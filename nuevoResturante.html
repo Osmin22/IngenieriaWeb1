@@ -8,36 +8,40 @@
     <link rel="stylesheet" href="css/newRestaurante.css">
 </head>
 <body>
-    <div id="" class="" >
+    <div id="" class="div-class" >
         <header>
             <div>    
                 <img src="" width="" heigth="" alt="">
                 <h1>Restaurantes</h1>
             </div>
             <div>
-                <hr>
-                    <nav>
-                        <ul>
-                           <li><a href="busqueda.html" >Buscar</a></li>
-                           <li><a href="restaurantes.html">Restaurantes</a></li>
-                           <li><a href="nuevoResturante.html" >Registrar restaura</a></li>
-                           <li><a href="index.html" >Inicion</a></li>
-                        </ul>
-                    </nav>
+                <nav>
+                    <ul>
+                        <li><a href="busqueda.html" >Buscar</a></li>
+                        <li><a href="restaurantes.html">Restaurantes</a></li>
+                        <li><a href="nuevoResturante.html" >Registrar restaura</a></li>
+                        <li><a href="index.html" >Inicion</a></li>
+                    </ul>
+                </nav>
                 <hr>
             </div>
         </header>
     </div>
-    <div id="" class="" >
+    <div id="" class="div-class" >
         <form action="Controlador" method="POST" name="formulario">
-            <label for="nombre" >Nombre</label><br>
-            <input type="text" name="nombre" class="campo" placeholder="nombre" autocomplete="true"><br>
-            <label for="descripcion" >Descripcion</label><br>
-            <textarea type="text" name="descripcion" placeholder="descripcion"></textarea><br>
-            <label for="direccion" >Direccion</label><br>
-            <input type="text" name="direccion" class="campo" placeholder="direccion" autocomplete="true"><br>
-            <label for="imagen" >Imagen</label><br>
-            <input type="file" name="imagen" class="campo" placeholder="imagen" autocomplete="true"><br>
+
+            <label for="nombre" class="label" >Nombre</label><br>
+            <input type="text" name="nombre" class="campo" placeholder="nombre" autocomplete="true" size="100"><br>
+
+            <label for="descripcion" class="label" >Descripcion</label><br>
+            <textarea type="text" name="descripcion" placeholder="descripcion" autocomplete="true"></textarea><br>
+
+            <label for="direccion" class="label" >Direccion</label><br>
+            <input type="text" name="direccion" class="campo" placeholder="direccion" autocomplete="true" size="100"><br>
+
+            <label for="imagen" class="label" >Imagen</label><br>
+            <input type="file" name="imagen" class="campo" placeholder="imagen"><br>
+
             <button type="submit" class="Button" action="guardar" value="valores" >Enviar</button><br>
             <button type="reset" class="Button">Borrar</button>
         </form>
