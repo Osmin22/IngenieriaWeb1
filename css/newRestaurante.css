@@ -22,6 +22,10 @@ a {
     margin-bottom: 5px;
     margin-left: 5px;
     margin-right: 5px;
+    border: 50px;
+    border-radius: 40px;
+    width: 80px;
+    height: 30px;
     background: rgb(211, 247, 247);
     box-shadow: 0 5px 10px rgb(0,0,0,0.1);
     border-color: rgb(211, 247, 247);
@@ -32,9 +36,16 @@ a {
     margin-bottom: 5px;
     margin-left: 5px;
     margin-right: 5px;
+    box-shadow:  0 5px 10px rgb(0,0,0,0.1);
 }
 
-
+.label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow:  0 5px 10px rgb(0,0,0,0.1);
+}
 nav {
     background: white;
     box-shadow: 0 5px 10px rgb(0,0,0,0.1);
@@ -58,6 +69,7 @@ nav {
         max-width: 1170px;
         margin: 0 auto;
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
         padding: 1rem;

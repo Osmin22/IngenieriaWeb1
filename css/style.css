@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+p{
+    box-shadow:  0 5px 10px rgb(0,0,0,0.1);
+}
+
 #the-div-index
 {
     margin-top: 20px;
@@ -61,6 +65,7 @@ nav {
         max-width: 1170px;
         margin: 0 auto;
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
         padding: 1rem;
