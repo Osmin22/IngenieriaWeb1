@@ -34,6 +34,16 @@ nav {
     padding-left: 1.5cm;
 }
 
+.button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: rgb(211, 247, 247);
+    box-shadow: 0 5px 10px rgb(0,0,0,0.1);
+    border-color: rgb(211, 247, 247);
+}
+
 @media (min-width: 800px){
     .nav-main{
         max-width: 1170px;

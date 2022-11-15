@@ -17,6 +17,24 @@ a {
     margin-right: 20px;
 }
 
+.button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: rgb(211, 247, 247);
+    box-shadow: 0 5px 10px rgb(0,0,0,0.1);
+    border-color: rgb(211, 247, 247);
+}
+
+.campo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
 nav {
     background: white;
     box-shadow: 0 5px 10px rgb(0,0,0,0.1);
